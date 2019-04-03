@@ -6,7 +6,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
   min-height: 100vh;
 }
 .content-container {
@@ -40,6 +40,9 @@ h4 {
 p {
   line-height: 1.5;
   margin: 0.75em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', helvetica, sans;
 }
 
 /* COLUMN STYLES */
